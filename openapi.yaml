@@ -6,11 +6,16 @@ info:
   contact: 
     name: "Andreas Fischer"
     email: "andreasfischer1985@web.de"
-    url:  "www.github.com/AndreasFischer1985"
+    url:  "https://github.com/AndreasFischer1985/dashboard-deutschland-api"
 
 servers:
   - url: "https://www.dashboard-deutschland.de"
 
+tags:
+  - name: Get
+  - name: Indicators
+  - name: Geo
+  
 paths:
   /api/dashboard/get:
     get:
@@ -18,7 +23,7 @@ paths:
       description: Die API ermöglicht Zugriff auf alle gültigen Einträge des id-Parameters (siehe unten, Indikatoren).
       operationId: get
       tags:
-        - get
+        - Get
       responses:
         '200':
             description: OK
@@ -35,7 +40,7 @@ paths:
       description: Die API ermöglicht Zugriff auf unterschiedliche Indikatoren im JSON-Format über einfache GET-request.
       operationId: indicators
       tags:
-        - indicators
+        - Indicators
       parameters:
         - in: query
           name: id
@@ -144,7 +149,7 @@ paths:
       description: Die API ermöglicht Zugriff auf Geojson-Daten zu Deutschland und den Ländern (00-DE_admin1_400).
       operationId: geo
       tags:
-        - geo
+        - Geo
       responses:
         '200':
             description: OK
