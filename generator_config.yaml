@@ -1,6 +1,6 @@
 templateDir: deutschland_templates # For local use: ./local/deutschland_templates
 additionalProperties:
-  packageName: "Dashboard Deutschland"
+  packageName: "DashboardDeutschland"
   infoName: "BundesAPI"
   infoEmail: "kontakt@bund.dev"
   packageVersion: 0.1.0
