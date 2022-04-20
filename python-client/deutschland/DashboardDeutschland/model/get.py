@@ -32,10 +32,12 @@ from deutschland.DashboardDeutschland.model_utils import (  # noqa: F401
 
 def lazy_import():
     from deutschland.DashboardDeutschland.model.get_category import GetCategory
-    from deutschland.DashboardDeutschland.model.get_layout_tiles import GetLayoutTiles
+    from deutschland.DashboardDeutschland.model.get_layout_tiles_inner import (
+        GetLayoutTilesInner,
+    )
 
     globals()["GetCategory"] = GetCategory
-    globals()["GetLayoutTiles"] = GetLayoutTiles
+    globals()["GetLayoutTilesInner"] = GetLayoutTilesInner
 
 
 class Get(ModelNormal):
@@ -117,7 +119,7 @@ class Get(ModelNormal):
             "order_id": (int,),  # noqa: E501
             "trending": (bool,),  # noqa: E501
             "top": (bool,),  # noqa: E501
-            "layout_tiles": ([GetLayoutTiles],),  # noqa: E501
+            "layout_tiles": ([GetLayoutTilesInner],),  # noqa: E501
             "layout_mode": (str,),  # noqa: E501
         }
 
@@ -202,7 +204,7 @@ class Get(ModelNormal):
             order_id (int): [optional]  # noqa: E501
             trending (bool): [optional]  # noqa: E501
             top (bool): [optional]  # noqa: E501
-            layout_tiles ([GetLayoutTiles]): [optional]  # noqa: E501
+            layout_tiles ([GetLayoutTilesInner]): [optional]  # noqa: E501
             layout_mode (str): [optional]  # noqa: E501
         """
 
@@ -310,7 +312,7 @@ class Get(ModelNormal):
             order_id (int): [optional]  # noqa: E501
             trending (bool): [optional]  # noqa: E501
             top (bool): [optional]  # noqa: E501
-            layout_tiles ([GetLayoutTiles]): [optional]  # noqa: E501
+            layout_tiles ([GetLayoutTilesInner]): [optional]  # noqa: E501
             layout_mode (str): [optional]  # noqa: E501
         """
 

@@ -13,12 +13,14 @@ import sys
 import unittest
 
 from deutschland.DashboardDeutschland.model.get_category import GetCategory
-from deutschland.DashboardDeutschland.model.get_layout_tiles import GetLayoutTiles
+from deutschland.DashboardDeutschland.model.get_layout_tiles_inner import (
+    GetLayoutTilesInner,
+)
 
 from deutschland import DashboardDeutschland
 
 globals()["GetCategory"] = GetCategory
-globals()["GetLayoutTiles"] = GetLayoutTiles
+globals()["GetLayoutTilesInner"] = GetLayoutTilesInner
 from deutschland.DashboardDeutschland.model.get import Get
 
 

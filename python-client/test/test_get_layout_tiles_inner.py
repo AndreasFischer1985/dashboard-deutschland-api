@@ -12,13 +12,15 @@
 import sys
 import unittest
 
-from deutschland.DashboardDeutschland.model.get_layout_tiles import GetLayoutTiles
+from deutschland.DashboardDeutschland.model.get_layout_tiles_inner import (
+    GetLayoutTilesInner,
+)
 
 from deutschland import DashboardDeutschland
 
 
-class TestGetLayoutTiles(unittest.TestCase):
-    """GetLayoutTiles unit test stubs"""
+class TestGetLayoutTilesInner(unittest.TestCase):
+    """GetLayoutTilesInner unit test stubs"""
 
     def setUp(self):
         pass
@@ -26,10 +28,10 @@ class TestGetLayoutTiles(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def testGetLayoutTiles(self):
-        """Test GetLayoutTiles"""
+    def testGetLayoutTilesInner(self):
+        """Test GetLayoutTilesInner"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = GetLayoutTiles()  # noqa: E501
+        # model = GetLayoutTilesInner()  # noqa: E501
         pass
 
 
