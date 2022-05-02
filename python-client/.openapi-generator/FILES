@@ -17,7 +17,7 @@ DashboardDeutschland/model/geo_crs.py
 DashboardDeutschland/model/geo_crs_properties.py
 DashboardDeutschland/model/get.py
 DashboardDeutschland/model/get_category.py
-DashboardDeutschland/model/get_layout_tiles.py
+DashboardDeutschland/model/get_layout_tiles_inner.py
 DashboardDeutschland/model/indicators.py
 DashboardDeutschland/model_utils.py
 DashboardDeutschland/models/__init__.py
@@ -31,7 +31,7 @@ docs/GeoCrsProperties.md
 docs/Get.md
 docs/GetApi.md
 docs/GetCategory.md
-docs/GetLayoutTiles.md
+docs/GetLayoutTilesInner.md
 docs/Indicators.md
 docs/IndicatorsApi.md
 git_push.sh
@@ -50,7 +50,7 @@ test/test_geo_crs_properties.py
 test/test_get.py
 test/test_get_api.py
 test/test_get_category.py
-test/test_get_layout_tiles.py
+test/test_get_layout_tiles_inner.py
 test/test_indicators.py
 test/test_indicators_api.py
 tox.ini

@@ -91,7 +91,7 @@ Class | Method | HTTP request | Description
  - [GeoCrsProperties](docs/GeoCrsProperties.md)
  - [Get](docs/Get.md)
  - [GetCategory](docs/GetCategory.md)
- - [GetLayoutTiles](docs/GetLayoutTiles.md)
+ - [GetLayoutTilesInner](docs/GetLayoutTilesInner.md)
  - [Indicators](docs/Indicators.md)
 
 

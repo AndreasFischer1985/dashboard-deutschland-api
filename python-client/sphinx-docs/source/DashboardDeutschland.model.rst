@@ -44,10 +44,10 @@ DashboardDeutschland.model.get\_category module
    :undoc-members:
    :show-inheritance:
 
-DashboardDeutschland.model.get\_layout\_tiles module
-----------------------------------------------------
+DashboardDeutschland.model.get\_layout\_tiles\_inner module
+-----------------------------------------------------------
 
-.. automodule:: DashboardDeutschland.model.get_layout_tiles
+.. automodule:: DashboardDeutschland.model.get_layout_tiles_inner
    :members:
    :undoc-members:
    :show-inheritance:
