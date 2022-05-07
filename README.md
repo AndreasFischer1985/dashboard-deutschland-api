@@ -7,14 +7,14 @@ Auf https://www.dashboard-deutschland.de bietet das Statistische Bundesamt DESTA
 
 **URL:** https://www.dashboard-deutschland.de/api/dashboard/get
 	
-Die API ermöglicht Zugriff auf alle gültigen Einträge des id-Parameters getrennt nach id-Kategorien (siehe unten, Indikatoren). 
+Die API ermöglicht über diese URL den Zugriff auf alle gültigen Einträge des id-Parameters getrennt nach id-Kategorien (siehe unten, Indikatoren). 
 
 
 ## Indikatoren
 
 **URL:** www.dashboard-deutschland.de/api/tile/indicators
 	
-Die API ermöglicht Zugriff auf unterschiedliche Indikatoren im JSON-Format über einfache GET-requests mit nur einem Parameter (namens *id*). Der Parameter id spezifizierten den gewünschten Indikator. Mögliche Ausprägungen sind im Folgenden nach Kategorien getrennt aufgelistet und in runden Klammern kurz erläutert. Mehrere Semikolon-getrennte Angaben sind möglich. Gesundheitsindikatoren (beginnend mit "ginsy_ges") lassen sich neben der o.g. Variante auch nach Regionen von Bundesländern unterteilt anfordern, durch einen Unterstrich, gefolgt von einer das Bundesland repräsentierenden Zahl (z.B. 9 für Bayern).
+Die API ermöglicht über diese URL Zugriff auf unterschiedliche Indikatoren im JSON-Format über einfache GET-requests mit nur einem Parameter (namens *id*). Der Parameter id spezifiziert den gewünschten Indikator. Mögliche Ausprägungen sind im Folgenden nach Kategorien getrennt aufgelistet und in runden Klammern kurz erläutert. Mehrere Semikolon-getrennte Angaben sind möglich. Gesundheitsindikatoren (beginnend mit "ginsy_ges") lassen sich neben der o.g. Variante auch nach Regionen von Bundesländern unterteilt anfordern, durch einen Unterstrich, gefolgt von einer das Bundesland repräsentierenden Zahl (z.B. 9 für Bayern).
 
 **id-Kategorie "Aktuelles im Fokus":**
 
